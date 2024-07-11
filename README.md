@@ -1,6 +1,6 @@
 # Markdown to HTML Converter
 
-This project is a web application that allows users to upload Markdown files and converts them to HTML using an Express server. The converted HTML is displayed using Tailwind CSS for styling.
+This project is a Node.js application designed to upload Markdown files and convert them into HTML dynamically. It includes a user-friendly HTML form for file uploads and utilizes Multer for handling file uploads securely. Markdown-it is used to parse Markdown content and render it as HTML for display.
 
 ## Features
 
