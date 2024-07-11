@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown to HTML Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1 class="bg-gray-500 text-center text-white py-2 sm:py-2 md:py-4 lg:py-6 text-2xl sm:text-2xl md:text-4xl lg:text-4xl font-bold mt-0 sm:mt-0 md:mt-0 lg:mt-0">Markdown To HTML Converter</h1>
+    <div class="flex flex-col justify-center items-center h-screen">
+        <div class="mx-4 sm:mx-8 md:mx-16 lg:mx-auto mt-8 sm:mt-8 md:mt-6 lg:mt-2 mb-36 sm:mb-24 md:mb-40 lg:mb-44
+        w-64 sm:w-80 md:w-96 lg:w-[30rem] xl:w-[40rem] h-32 sm:h-40 md:h-48 lg:h-56 xl:h-64 border-2 border-black container rounded bg-gray-400 ">
+            <form action="/upload" method="post" enctype="multipart/form-data" class="flex flex-col items-center p-4 sm:p-6 md:p-8 lg:p-10">
+                <p class="text-sm sm:text-base md:text-base lg:text-xl mb-1 sm:mb-1 md:mb-2 lg:mb-4">Upload your <b>Markdown file</b> here</p>
+                <input type="file" name="file" accept=".md" required  class="block w-full text-sm sm:text-base md:text-lg lg:text-xl mb-1 sm:mb-2 md:mb-3 lg:mb-4 p-2 border rounded">
+                <input type="submit" value="submit" class="bg-white text-black text-sm sm:text-base md:text-lg lg:text-xl px-1 sm:px-2 md:px-4 lg:px-6 py-1 sm:py-0.5 md:py-0.5 lg:py-1.5 rounded cursor-pointer mb-4 sm:mb-6 md:mb-8 lg:mb-10">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
