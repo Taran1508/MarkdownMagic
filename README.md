@@ -1,4 +1,4 @@
-# Markdown to HTML Converter
+# Markdown Magic
 
 This project is a Node.js application designed to upload Markdown files and convert them into HTML dynamically. It includes a user-friendly HTML form for file uploads and utilizes Multer for handling file uploads securely. Markdown-it is used to parse Markdown content and render it as HTML for display.
 
